@@ -1,0 +1,23 @@
+
+#Heading{
+    background-color: blue;
+    text-align: right;
+}
+
+h3{
+    text-align: center;
+}
+
+body{
+    background-color: lightblue;
+}
+
+.sign-upbt{
+    border: 5px solid white;
+        text-align: center;
+        height: 200px;
+        width: 25%;
+    padding: 10px 10px 10px 10px;
+}
+
+
