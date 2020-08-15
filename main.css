@@ -4,6 +4,9 @@
     color: white;
 }
 
+#Heading{
+    background-color: white;
+}
 
 nav{
     background-color: white;
@@ -17,6 +20,7 @@ h3{
 
 body{
     background-color: lightblue;
+    margin: 10px 5px 0px 0px;
 }
 
 .sign-upbt{
@@ -34,10 +38,17 @@ input{
     border: 1px solid black;
     padding: 6px;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 input:placeholder-shown{
     border-color: gray;
     color: gray;
+}
+
+#butttons{
+    width: 100%;
+    background-color: blue;
+    color: white;
+    margin-bottom: 10px;
 }
