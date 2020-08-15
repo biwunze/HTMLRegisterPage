@@ -1,11 +1,11 @@
 
-#Heading{
-    background-color: blue;
+.Heading{
     text-align: right;
+    
 }
 
 h3{
-    text-align: center;
+    text-align: left;
 }
 
 body{
@@ -17,7 +17,17 @@ body{
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        height: 200px;
-        width: 25%;
+        height: 300px;
+        width: 15%;
     padding: 10px 10px 10px 10px;
+}
+
+input{
+    border: 1px solid black;
+    padding: 6px;
+}
+
+input:placeholder-shown{
+    border-color: gray;
+    color: gray;
 }
