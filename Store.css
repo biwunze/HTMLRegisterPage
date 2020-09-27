@@ -1,0 +1,188 @@
+Body {
+    font-size: 13pt;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(../CV/CVPics/LH.jpg);
+    background-position: initial;
+    background-attachment: scroll;
+    padding: 0;
+    margin: 0;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: contain;
+    -o-background-size: 100% 100%;
+}
+h1 {
+    color: navy;
+    margin: auto;
+    padding: 0;
+}
+h2 {
+    color: blue;
+    margin: 43.5px;
+    padding: 0;
+}
+
+p {
+    padding: 0px;
+    margin: 0;
+}
+
+
+#sidebar {
+    float: right;
+}
+a, a:visited {
+    color: red;
+}
+a:hover {
+    color: gray;
+}
+
+hr {    
+    padding: 0;
+    margin: 1.5em 1.5em .75em .5em;
+}
+
+.contentWrapper {
+    margin: -65px 5px 3px 0;
+    max-width: 1170px;
+    padding: 25px 2.0em;
+}
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+div.updated {
+    clear: both;
+    font: 1em sans-serif;
+}
+/*Header*/
+header {
+    padding: 2.5em 0 0.5em;
+    margin: 0 0 2.5em;
+    background-image: url(../CV/CVPics/bulb.jpg) /*center 0px*/;
+    background-size: contain;
+    background-repeat: round;
+}
+
+header h1 {
+    font-family: cursive;
+    color: black;
+    font-size: 3em;
+    margin: 0;
+    text-transform: capitalize;
+    text-shadow: gray;
+}
+header h3 {
+    font-family: cursive;
+    color: black;
+    text-transform: capitalize;
+
+}
+/*Nav Bars*/
+nav {
+    color: wheat;
+    padding: 1em 1em .5em;
+    margin: 1em 0;
+}
+
+nav ul {
+    margin: 0em;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+
+nav li a:hover {
+    color: violet;
+    background-color: white;
+}
+nav#utilityMenu {
+    float: right;
+    margin: 2.5em -9px 10px 2px;
+    padding: 0.3em 0 .3em 0;
+    /*margin: 2.5em 0 0 0;
+    padding: 0.35em;*/
+    background-color: ivory;
+    height: 1.8em;
+}
+nav#utilityMenu li {
+    padding: 0 0.25em 0 0.2em;
+    vertical-align: middle;
+}
+nav#utilityMenu ul li.acctNav a, nav#utilityMenu ul li.acctNav a:visited {
+    color: green;
+    display: inline-block;
+    height: 1.3em;
+    padding: .5em;
+    margin: -.4em 0 0 0;
+    font-size: .8em;
+}                                   /*There's more*/
+
+/*Sidebar Section*/
+section#sidebar {
+    width: 230px;
+    float: right;
+    position: relative;
+    display: block;
+    background-color: lightslategray;
+    margin: 5em -176px 2em 1.5em;
+    padding: 1.3em 1.3em 1.3em 1.3em;
+}
+/*Main Section*/
+
+section#mainBody {
+    margin: 0 0 2em;
+    /*padding: 1.5em 0 2em 1.5em;*/
+    /*display: inline-block;*/
+    border-radius: 0;
+}
+section div.purchase {
+    float: left;
+    position: relative;
+    width: 250px;
+    margin: 0 .5em 2em .5em;
+    padding: 1em;
+    background-color: white;
+    border: white;
+    border-radius: .6em;
+}
+section div.purchase img {
+    width: 100%;
+}
+footer {
+    background-image: url(../CV/CVPics/bulb2.jpg);
+    height: 35px;
+    font-size: .6em;
+    color: whitesmoke;
+    text-align: center;
+    padding: 1.5em 2em;
+}
+footer ul#lastLinks {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 .6em;
+    padding: 0;
+}
+
+footer ul li {
+    float: inline-block;
+    padding: 0 .7em 0 0;
+    margin: 0;
+
+}
+footer ul li::before {
+    content: "+";
+    padding-right: .7em;
+}
+footer a:hover {
+    color: yellow;
+    text-decoration: wavy;
+}
